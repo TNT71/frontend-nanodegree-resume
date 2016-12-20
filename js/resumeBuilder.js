@@ -51,7 +51,7 @@ var bio = {
         }
     }
 
-}
+};
 
 
 work = {
@@ -78,7 +78,7 @@ work = {
         });
     }
 
-}
+};
 
 
 projects = {
@@ -118,7 +118,7 @@ projects = {
         });
     }
 
-}
+};
 
 education = {
     "schools": [{
@@ -170,10 +170,10 @@ education = {
             $(".education-entry:last").append(formattedDates);
             var formattedURL = HTMLonlineURL.replace("%data%", value.url);
             $(".education-entry:last").append(formattedURL);
-        })
+        });
     }
 
-}
+};
 
 // Creat the page
 bio.display();
